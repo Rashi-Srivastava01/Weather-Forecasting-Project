@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  /* Search bar at the top */
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .search input {
+    padding: 10px 15px;
+    border: 2px solid #2193b0;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search button {
+    background-color: #2193b0;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .search button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Weather card */
+  .box {
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+  }
+  
+  .weather-icon {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 36px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .City {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f5faff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 48%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .col img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .col div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .col p:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .col p:last-child {
+    font-size: 14px;
+    color: #777;
+  }
+  .weather{
+    display: none;
+  }
